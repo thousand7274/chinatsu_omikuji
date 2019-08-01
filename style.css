@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+body{
+  background-color:#1d1d1d;
+  color: aliceblue;
+  font-size:20px;
+}
+.container{
+text-align: center
+}
+@keyframes hurueru  {
+  0% {transform: translate(0px, 0px) rotateZ(0deg)}
+  25% {transform: translate(2px, 2px) rotateZ(1deg)}
+  50% {transform: translate(0px, 2px) rotateZ(0deg)}
+  75% {transform: translate(2px, 0px) rotateZ(-1deg)}
+  100% {transform: translate(0px, 0px) rotateZ(0deg)}
+}
+.omikuji-img{
+  width: 232px;
+}
+img:hover{
+  cursor: pointer;
+  display: inline-block;
+  animation: hurueru .1s infinite;
+}
+#comments{
+  padding-top: 20px;
+  text-align: center;
+}
+
+
