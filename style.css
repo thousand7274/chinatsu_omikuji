@@ -5,7 +5,11 @@ body{
   color: aliceblue;
   font-size:20px;
 }
-.container{
+h1{
+  font-size:20px;
+  padding-top:50px;
+}
+#container{
 text-align: center
 }
 @keyframes hurueru  {
@@ -23,9 +27,10 @@ img:hover{
   display: inline-block;
   animation: hurueru .1s infinite;
 }
-#comments{
+#text{
   padding-top: 20px;
   text-align: center;
 }
-
-
+.kyou{
+  font-size: 30px;
+}
